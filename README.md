@@ -2,6 +2,8 @@
 
 A live Omarchy bar widget for CPU, per-core CPU, RAM, GPU, and VRAM usage.
 
+![Resource monitor panel](screenshots/resources-panel.png)
+
 ## Install
 
 Review the source, then install it with Omarchy:
