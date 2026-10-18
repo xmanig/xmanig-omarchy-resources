@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "xmanig.resources",
+  "name": "Resources",
+  "version": "1.0.0",
+  "author": "mgl",
+  "license": "MIT",
+  "description": "CPU, per-core, RAM, GPU, and VRAM usage for the Omarchy bar",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Resources",
+    "description": "Monitor CPU, cores, memory, GPU, and VRAM usage",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "center"
+  }
+}
